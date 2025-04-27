@@ -16,13 +16,13 @@ document.getElementById('intro').addEventListener(
     () => changeBackgroundColor('#2ca02c')
 );
 
-document.getElementById(
+document.getElementById('react').addEventListener(
     ('click'),
-    () => changeBackgroundColor('#FF7F0E')
+    () => changeBackgroundColor('#ff7f0e')
 );
 
-document.getElementById(
+document.getElementById('backend').addEventListener(
     ('click'),
-    () => changeBackgroundColor('#9467BD')
+    () => changeBackgroundColor('#9467bd')
 );
 
